@@ -1,0 +1,159 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+h1{
+    color:aliceblue;
+}
+a, p{
+    color: aliceblue;
+    text-decoration: none;
+}
+.link-profile{
+    font-size: 30px;
+}
+body{
+    box-sizing: border-box;
+    top:0;
+    left: 0;
+    background: radial-gradient(circle, rgb(18, 30, 52) 1%, rgb(17, 17, 41) 35%, rgb(7, 6, 13) 100%);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
+}
+.header-bar{
+    top:0;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    position: fixed;
+    height: 70px;
+    justify-content: space-between;
+    backdrop-filter: blur(14px); 
+    box-shadow: 0 1px 2px rgba(129, 124, 124, 0.015); 
+    background-color: rgba(5, 8, 27, 0.541); 
+}
+.navigation-menu{ 
+    margin-right: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.navigation-menu li{
+    padding: 10px 10px;
+
+}
+
+.navigation-menu li:hover{
+    transform: scale(1.1);
+    transition: transform .4s;
+    padding: 10px 10px;
+    background-color: rgba(71, 143, 231, 0.426); 
+    border-radius: 5px;
+}
+.mainContainer{
+    margin-top: 90px;
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display:flex;
+}
+.leftSide{
+    width: 50%;
+    height: auto;
+    /*background-color: blue; */
+    position: fixed;
+}
+
+.personalInfo-leftSide{
+    margin: auto;
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+    backdrop-filter: blur(14px); 
+    background-color: rgba(255, 255, 255, 0.061); 
+    padding: 20px 0;
+}
+.personalInfo-container{
+    margin: auto;
+    width: 90%;
+}
+
+/*------*/ 
+.rightSide{
+    border-radius: 5px;
+    width: 50%;
+    background-color: rgba(12, 12, 12, 0.012);
+    display: block;
+    position:static;
+    margin-left: 50%;
+}
+/*---ABOUT---*/ 
+.about-card{
+    width: 90%;
+    margin: 20px auto;
+}
+/*------*/ 
+.experience-container{
+    margin: auto;
+}
+.experience-card{
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    border-radius: 5px;
+    background-color:rgba(200, 200, 255, 0.012);
+}
+.experience-card:hover{
+    backdrop-filter: blur(24px); 
+    box-shadow: 0 1px 8px rgba(213, 207, 207, 0.027);
+    transform: scale(1.01);
+    transition: transform .2s;
+}
+
+.link-profile{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+}
+li{
+   list-style: none; 
+   text-decoration: none;
+}
+
+/* --- Project ---*/
+.project-container{
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+.image-container{
+    width: 25%;
+  
+}
+img{
+    margin-top: 20px;
+    width: 90%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.project-info{
+    padding: 0px 1px;
+}
+.tag{
+    display: flex;
+    gap: 10px;
+   
+}
+.tag-container{
+    background-color: rgba(167, 229, 229, 0.36);
+    border-radius: 10px;
+    padding: 0 10px;
+ 
+}
+.tag p{
+    color:aqua
+}
