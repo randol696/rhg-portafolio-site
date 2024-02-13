@@ -7,16 +7,20 @@ function App() {
   return (
     <>
     <div className="header-bar">
-      <h1>Randol Gonzalez</h1>
+      <h1>RANDOL GONZALEZ</h1>
       <Navigation /> 
     </div>
    
     <div className="mainContainer">
       <div className="leftSide">
         <HeaderSideBar />
+        
       </div>
+    
       <div className="rightSide">
+     
         <Main />
+        
       </div>
    
     </div>

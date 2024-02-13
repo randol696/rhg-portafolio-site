@@ -3,12 +3,19 @@
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
-h1{
+h1, h2{
     color:aliceblue;
 }
 a, p{
     color: aliceblue;
     text-decoration: none;
+}
+h1{
+    font-size: 24px;
+    margin-left: 25px;
+}
+h2{
+    margin-left: 25px;
 }
 .link-profile{
     font-size: 30px;
@@ -23,6 +30,7 @@ body{
     font-weight: 16px;
     font-style: normal;
 }
+
 .header-bar{
     top:0;
     width: 100%;
@@ -83,9 +91,10 @@ body{
 
 /*------*/ 
 .rightSide{
+    
     border-radius: 5px;
     width: 50%;
-    background-color: rgba(12, 12, 12, 0.012);
+    background-color: rgba(80, 78, 78, 0.081);
     display: block;
     position:static;
     margin-left: 50%;
@@ -106,6 +115,9 @@ body{
     gap: 20px;
     border-radius: 5px;
     background-color:rgba(200, 200, 255, 0.012);
+}
+.experience-icon{
+    margin-left: 10px;
 }
 .experience-card:hover{
     backdrop-filter: blur(24px); 
@@ -129,6 +141,8 @@ li{
     margin: auto;
     width: 90%;
     display: flex;
+  
+    margin: 30px auto;
 }
 .image-container{
     width: 25%;
@@ -136,12 +150,14 @@ li{
 }
 img{
     margin-top: 20px;
+    margin-left: 10px;
     width: 90%;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 3px;
 }
 .project-info{
     padding: 0px 1px;
+    margin-left: 10px;
 }
 .tag{
     display: flex;

@@ -39,6 +39,7 @@ function Experience(){
         <>
        
         <section id="experience">
+            <h2>EXPERIENCE</h2>
             {experiencesSection}
         </section>
         </>

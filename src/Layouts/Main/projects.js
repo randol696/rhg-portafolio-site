@@ -1,5 +1,6 @@
 import React from 'react';
-import capture1 from '../../Assets/Images/capture1.jpg'
+import capture1 from '../../Assets/Images/capture1.png'
+import capture2 from '../../Assets/Images/capture2.png'
 
 const projects =[
     {
@@ -11,12 +12,12 @@ const projects =[
     tag:['html','css','Javascript'],
     },
     {
-    image: capture1,
+    image: capture2,
     altText:'',
-    title: 'Computer Science Teacher',
+    title: 'Americas Faith',
     description: '',
-    link: '',
-    tag:['html','css'],
+    link: 'https://amfaith.org/',
+    tag:['html','css','Wordpress','php'],
     }
 ];
 
@@ -43,6 +44,7 @@ function Projects(){
     return(
         <>
         <section id="projects">
+            <h2>PROJECTS</h2>
             <div>{projectSection}</div>
         </section>
         </>
