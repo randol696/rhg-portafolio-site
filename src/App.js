@@ -7,8 +7,10 @@ function App() {
   return (
     <>
     <div className="header-bar">
-      <h1>RANDOL GONZALEZ</h1>
+    <div class="loading-line"></div>
+    <div className="title-place"><h1>RANDOL GONZALEZ</h1></div>
       <Navigation /> 
+      
     </div>
    
     <div className="mainContainer">
@@ -31,12 +33,15 @@ function App() {
 function Navigation(){
 
   return (
+    <>
+    
       <ul className="navigation-menu">
               <li><a href="#about">ABOUT</a></li>
               <li><a href="#experience">EXPERIENCE</a></li>
               <li><a href="#projects">PROJECTS</a></li>
       </ul>
-
+     
+     </>
   );
 }
 export default App;

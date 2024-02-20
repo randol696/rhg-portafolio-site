@@ -15,7 +15,7 @@ function HeaderSideBar(){
                 <li><a href="_blank"><i class="fi fi-brands-instagram"></i></a></li>
                 <li><a href="_blank"><i class="fi fi-brands-twitter-alt-square"></i></a></li>
             </ul>
-            
+           
         </div>
     );
 }

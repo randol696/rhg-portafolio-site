@@ -44,7 +44,7 @@ function Projects(){
     return(
         <>
         <section id="projects">
-            <h2>PROJECTS</h2>
+        <div className="title-place"><h2>PROJECTS</h2></div>
             <div>{projectSection}</div>
         </section>
         </>

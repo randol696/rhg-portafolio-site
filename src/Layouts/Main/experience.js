@@ -39,7 +39,7 @@ function Experience(){
         <>
        
         <section id="experience">
-            <h2>EXPERIENCE</h2>
+        <div className="title-place"><h2>EXPERIENCE</h2></div>
             {experiencesSection}
         </section>
         </>
