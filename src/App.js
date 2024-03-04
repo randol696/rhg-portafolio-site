@@ -34,13 +34,11 @@ function Navigation(){
 
   return (
     <>
-    
       <ul className="navigation-menu">
               <li><a href="#about">ABOUT</a></li>
               <li><a href="#experience">EXPERIENCE</a></li>
               <li><a href="#projects">PROJECTS</a></li>
       </ul>
-     
      </>
   );
 }
