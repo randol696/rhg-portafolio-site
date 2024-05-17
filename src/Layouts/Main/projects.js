@@ -1,6 +1,7 @@
 import React from 'react';
 import capture1 from '../../Assets/Images/capture1.png'
 import capture2 from '../../Assets/Images/capture2.png'
+import capture3 from '../../Assets/Images/capture3.png'
 
 const projects =[
     {
@@ -18,6 +19,14 @@ const projects =[
     description: '',
     link: 'https://amfaith.org/',
     tag:['html','css','Wordpress','php'],
+    },
+    {
+    image: capture3,
+    altText:'',
+    title: 'Infinity Panama Radio',
+    description: '',
+    link: 'https://www.infinitypanama.com/',
+    tag:['React','RTSP','Shoutcast'],
     }
 ];
 
